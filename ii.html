@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				background-color: white;
+			}
+		.div1{
+			position: fixed;
+			height:1000px;
+			width:1406px;
+			z-index: 12;
+		}
+		.div2{
+			background-color: aqua;
+			height:63px;
+			width:272px;
+			float: left;
+			z-index: 12;
+			position: fixed;
+		}
+		.div3{
+			margin-left: 260px;
+			background-color: black;
+			height:63px;
+			width:126px;
+			float: left;
+		}
+		.div4{
+			background-color: chartreuse;
+			height:63px;
+			width:126px;
+			float: left;
+		}
+		.div5{
+			background-color: brown;
+			height:63px;
+			width:126px;
+			float: left;
+		}
+		.div6{
+			background-color: cadetblue;
+			height:63px;
+			width:126px;
+			float: left;
+		}
+		.div7{
+			background-color: crimson;
+			height:63px;
+			width:126px;
+			float: left;
+		}
+		.div8{
+			background-color: blueviolet;
+			height:63px;
+			width:126px;
+			float: left;
+		}
+		.div9{
+			background-color: darkolivegreen;
+			height:63px;
+			width:126px;
+			float: left;
+		}
+		.div10{
+			background-color: chocolate;
+			height:63px;
+			width:126px;
+			float: left;
+		}
+		.div11{
+			background-color: darkgreen;
+			height:63px;
+			width:126px;
+			float: left;
+			z-index: 12;
+		}
+		
+		.ad{
+			width: 100%;
+			height: 1200px;
+			position: absolute;
+			margin-top: 100vh;
+			background-color: #fff;
+			z-index: 11;
+		}
+			
+		.kl1{
+			display: inline-block;
+			width: 30%;
+			height: 500px;
+			position: relative;
+			margin-top: 10px;
+			margin-left: 10px;
+			background-color: yellow;
+		}
+		.kl2{
+			width: 70%;
+			height: 350px;
+			position: relative;
+			margin-top: -400px;
+			margin-left: 250px;
+			display: flex;
+			    flex-direction: row;
+			    flex-wrap: nowrap;
+			    align-content: flex-end;
+			    justify-content: space-between;
+			    align-items: stretch;
+			
+		}
+		.kl2 .lk{
+			background-color: crimson;
+			width: 30%;
+			height: 80%;
+		}
+			
+		.xx{
+			width: 120px;
+			height: 30px;
+			position: relative;
+			margin-top: -400px;
+			margin-left: 600px;
+			font-size: 26px;
+			font-weight: 800;
+			background-color: red;
+		}
+		.w1{
+			width:120px;
+			height:30px;
+			margin-top: -400px;
+			margin-left: 600px;
+			font-size: 26px;
+			font-weight: 800;
+		}
+			
+		.ds{
+			width: 1100px;
+			height: 500px;
+			text-align: center;
+			background-color: red;
+			position: absolute;
+			margin-top: 1300px;
+			margin-left: 50px;
+			z-index: 11;
+			display: flex;
+			    flex-direction: row;
+			    flex-wrap: wrap;
+			    align-content: space-around;
+			    justify-content: space-around;
+			    align-items: center;
+		}
+		.ds .nm{
+			width: 23%;
+			height: 43%;
+			background-color: blueviolet;
+			display: flex;
+			
+    justify-content: space-around;
+		}
+		.ds .nm .mn{
+			width: 28%;
+			height: 30%;
+			background-color:cadetblue;
+		}
+		.ds .nm .mn1{
+			width: 63%;
+			height: 100%;
+			background-color: darkred;
+		}
+		.hd{
+			background-color: red;
+			width: 140px;
+			height: 40px;
+			position: absolute;
+			margin-top: 1200px;
+			margin-left: 45%;
+			z-index: 11;
+			
+		}
+		.bn{
+			width: 100%;
+			height: 100vh;
+			background-color: #00ff00
+		}
+		.vb{
+			width: 100%;
+			height: 550px;
+			text-align: center;
+			background-color: royalblue;
+			
+			margin-top: 1300px;
+		
+			z-index: 11;
+			display: flex;
+			    flex-wrap: wrap;
+			    align-content: stretch;
+			    justify-content: space-around;
+		}
+		.le{
+			width: 40%;
+			height: 100%;
+		
+			display: flex;
+			    flex-direction: column;
+			    justify-content: flex-start;
+		}
+		.ri{
+			width: 40%;
+			height: 100%;
+			background-color: fuchsia;
+			display: flex;
+			    flex-direction: column;
+			    justify-content: space-evenly;
+		}
+		.le1{
+			width: 100%;
+			height: 45%;
+			background-color: rgb(255, 170, 255);
+		}
+		.le2{
+			width: 100%;
+			height: 47%;
+			background-color: rgb(255, 255, 127);
+			display: flex;
+			flex-direction: column-reverse;
+			    justify-content: space-evenly;
+		}
+		.le2 div{
+			width: 100%;
+			height: 19%;
+			background-color: rgb(0, 255, 255);
+		}
+	.ri1{
+		width: 100%;
+		height: 40%;
+		background-color: #00ff00;
+		display: flex;
+		flex-direction: column;
+		    justify-content: space-evenly;
+	}
+	.ri2{
+		width: 100%;
+		height: 50%;
+		background-color: #00ff00;
+		display: flex;
+		      flex-direction: column;
+		      justify-content: space-evenly;
+		      flex-wrap: wrap;
+		      align-content: stretch;
+	}
+	.ri1 .ir1{
+		height: 30%;
+		width: 70%;
+		background-color: red;
+	}
+	.ri1 .ir2{
+		height: 30%;
+		width: 100%;
+		background-color: olive;
+	}
+	.ri1 .ir3{
+		height: 25%;
+		width: 15%;
+		background-color: darkgoldenrod;
+	}
+	.ri2 div{
+		height: 17%;
+		width: 33%;
+		background-color: #aa55ff;
+	}
+	.im{
+		width: 110px;
+		height: 60px;
+		background-color: red;
+		margin-top: 80px;
+		margin-left: 45%;
+	}
+	.klm{
+		width: 90%;
+		height: 150px;
+		background-color: blue;
+		margin-top: 30px;
+		margin-left: 5%;
+		display: flex;
+		       flex-direction: row;
+		       justify-content: space-evenly;
+		       align-content: center;
+		       flex-wrap: wrap;
+	}
+	.klm div{
+		width: 18%;
+		height: 90%;
+		background-color: #ff007f;
+	}
+	.as{
+		height: 300px;
+	}
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+			<div class="div2"></div>
+			<div class="div3"></div>
+			<div class="div4"></div>
+			<div class="div5"></div>
+			<div class="div6"></div>
+			<div class="div7"></div>
+			<div class="div8"></div>
+			<div class="div9"></div>
+			<div class="div10"></div>
+			<div class="div11"></div>
+		</div>
+		<div class="ad">
+			<div class="kl1">
+				
+			</div>
+			<div class="kl2">
+				<div class="lk"></div>
+				<div class="lk"></div>
+				<div class="lk"></div>
+			</div>
+			<div class="xx">
+				
+			</div>
+			<div class="w1">
+				
+			</div>
+		</div>
+		<div class="hd"></div>
+		<div class="ds">
+			<div class="nm">
+				<div class="mn"></div>
+				<div class="mn1"></div>
+			</div>
+			<div class="nm">
+				<div class="mn"></div>
+				<div class="mn1"></div>
+			</div>
+			<div class="nm">
+				<div class="mn"></div>
+				<div class="mn1"></div>
+			</div>
+			<div class="nm">
+				<div class="mn"></div>
+				<div class="mn1"></div>
+			</div>
+			<div class="nm">
+				<div class="mn"></div>
+				<div class="mn1"></div>
+			</div>
+			<div class="nm">
+				<div class="mn"></div>
+				<div class="mn1"></div>
+			</div>
+			<div class="nm">
+				<div class="mn"></div>
+				<div class="mn1"></div>
+			</div>
+			<div class="nm">
+				<div class="mn"></div>
+				<div class="mn1"></div>
+			</div>
+		</div>
+		<div class="bn">
+			
+		</div>
+		<div class="vb">
+			<div class="le">
+				<div class="le1"></div>
+				<div class="le2"><div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div></div>
+			</div>
+			<div class="ri">
+				<div class="ri1"><div class="ir1"></div>
+				<div class="ir2"></div>
+				<div class="ir3"></div></div>
+				<div class="ri2"><div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div><div></div>
+				<div></div>
+				<div></div></div>
+				
+			</div>
+		</div>
+		<div class="im"></div>
+		<div class="klm"><div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div></div>
+		<div class="as"></div>
+	</body>
+</html>
